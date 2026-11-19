@@ -1,0 +1,15 @@
+aws_region              = "eu-west-1"
+project_name             = "cloud5"
+environment              = "dev"
+owner                    = "student"
+availability_zones       = ["eu-west-1a", "eu-west-1b"]
+single_nat_gateway       = true
+instance_type             = "t3.micro"
+min_size                  = 2
+max_size                  = 2
+desired_capacity          = 2
+db_instance_class         = "db.t3.micro"
+db_multi_az               = false
+db_deletion_protection    = false
+db_skip_final_snapshot    = true
+certificate_arn           = null

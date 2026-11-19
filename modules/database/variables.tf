@@ -1,0 +1,10 @@
+variable "name_prefix" { type = string }
+variable "db_subnet_ids" { type = list(string) }
+variable "security_group_id" { type = string }
+variable "db_instance_class" { type = string }
+variable "multi_az" { type = bool }
+variable "deletion_protection" { type = bool }
+variable "skip_final_snapshot" { type = bool }
+variable "db_name" { type = string }
+variable "db_username" { type = string }
+variable "tags" { type = map(string) }
